@@ -1,0 +1,230 @@
+
+
+.nav-item1 .nav-link1{
+  color: white !important;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.folio{
+  color:blue;
+}
+
+.navbar-nav {
+  gap:20px;
+  display:flex;
+  
+}
+.navbar-nav .nav-link {
+ color:white;
+ font-size: 18px;
+}
+.nav-link:hover{
+  color: blue !important;
+}
+
+
+.banner{
+  width: 100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-image:
+  url("https://img.magnific.com/free-vector/blue-background-with-white-line-middle_483537-4470.jpg");
+height:100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+.container-fluid{
+  width: 100%;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  gap:50px;
+  padding-left: 15px;
+}
+.profilepic{
+  width:320px;
+  height:320px;
+  border-radius:50%;
+  object-fit:cover;
+  object-position: center;
+  border:4px solid dodgerblue;
+  padding:10px;
+}
+.intro{
+  color:white;
+
+  font-size: 20px;
+}
+.name{
+  font-size: 50px;
+  color: white;
+  font-weight: bolder;
+
+}
+.mern{
+  font-size: 50px;
+  font-weight: bolder;
+}
+.inblue{
+background: linear-gradient(blue,purple);
+ background-clip: text;
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+color:transparent
+}
+.developer{
+  color:white;
+  padding-left: 10px;
+}
+.text{
+  font-size: 20px;
+  color:whitesmoke;
+  line-height: 1.6;
+  max-width: 600px;
+  margin-bottom: 30px;
+  margin-top:15px;
+}
+.btn-secondary{
+  color:white;
+  background: linear-gradient(blue,purple);
+  border:1px solid blue;
+  font-size: 25px;
+  padding:10px;
+  border-radius: 50px;
+  font-weight: bold;
+}
+
+.contain{
+  width:100%;
+  min-height: 100vh;
+position: relative;
+  background-image: url("https://img.magnific.com/free-vector/beige-leafy-watercolor-background_53876-118941.jpg?");
+  background-size: cover;
+  background-position: top right;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  
+}
+.container{
+display: flex;
+  flex-direction:row;
+  align-items: space-between;
+  gap:60px;
+  align-items:top;
+  padding:60px 100px 0 80px;
+  box-sizing: border-box;
+  
+}
+
+.about-right-content{
+  flex:1.5;
+  line-height: 1.3;
+
+}
+
+.about-features{
+  display:flex;
+  
+  gap:15px;
+  border-top: 2px solid #ccc;
+  border-bottom: 2px solid #ccc;
+  justify-content: flex-end;
+  width:100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 15px;
+}
+.feature:hover{
+  transform: translateY(-8px) scale(1.1);
+}
+.neha{
+ font-family: cursive;
+ color:goldenrod;
+ font-style: italic;
+}
+.about-features{
+  align-items: left;
+  
+}
+.feature{
+flex:1;
+display:flex;
+flex-direction:column;
+align-items: center;
+text-align: center;
+
+border: 1px solid #b2ebf2;
+object-fit: contain;
+object-position: center;
+background-color: aqua;
+
+
+
+box-sizing: border-box;
+
+
+}
+.vertical-divider{
+  border-right: 2px solid darkgrey;
+
+  
+}
+.about-subtitle{
+  color:goldenrod;
+font-family: cursive;
+font-size: 50px;
+font-style: italic;
+
+}
+.drishti{
+  color:black;
+  font-weight: bold;
+}
+.rahul,.sid{
+  font-weight: bold;
+  font-style: oblique;
+}
+.title{
+  font-style: italic;
+  padding-left: 150px;
+  font-weight: bold;
+  padding-top: 0px;
+}
+.feature i{
+  font-size: 1.2 rem;
+  margin-bottom:8px;
+  
+  
+}
+.feature h4{
+  font-size: 0.20 rem !important;
+  margin-bottom: 6px;
+}
+.feature p{
+  padding:5px;
+  font-style: italic;
+  font-weight: bold;
+  line-height: 1.3;
+  font-size: 0.75 rem;
+}
+.circle{
+ flex:1;
+ display: flex;
+ justify-content: flex-end;
+ padding-left: 100px;
+ 
+}
+.circle img{
+  width: 390px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 200px 200px 0 0;
+  display: block;
+  
+
+}
+
